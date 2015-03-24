@@ -1,0 +1,16 @@
+div#linksOutrosGraficos img.btns_links{
+	position: absolute;
+	top: 60px;
+	display: none;
+	z-index: 10;
+}
+
+img#link_advanceTracThumb 	{ right:  46px; }
+img#link_HLAThumb 			{ right:  92px; }
+img#link_powerShiftThumb 	{ right: 139px; }
+img#link_ergonomiaThumb 	{ right: 187px; }
+img#link_offRoadThumb 		{ right: 232px; }
+img#link_motor1Thumb 		{ right: 280px; }
+img#link_sigmaThumb 		{ right: 329px; }
+img#link_segurancaThumb 	{ right: 374px; }
+img#link_protecaoThumb  	{ right: 421px; }

@@ -1,0 +1,350 @@
+/* line 5, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  /*GothamBlack*/
+  font-family: 'GothamBlack';
+  src: url("../fonts/GothamBlack.eot");
+  src: local("../GothamBlack"), url("../fonts/GothamBlack.woff") format("woff"), url("../fonts/GothamBlack.ttf") format("truetype"); }
+@font-face {
+  /*GothamExLight*/
+  font-family: 'GothamExLight';
+  src: url("../fonts/GothamExLight.eot");
+  src: local("../GothamExLight"), url("../fonts/GothamExLight.woff") format("woff"), url("../fonts/GothamExLight.ttf") format("truetype"); }
+@font-face {
+  /*GothamMedium*/
+  font-family: 'GothamMedium';
+  src: url("../fonts/GothamMedium.eot");
+  src: local("../GothamMedium"), url("../fonts/GothamMedium.woff") format("woff"), url("../fonts/GothamMedium.ttf") format("truetype"); }
+/* line 4, ../componentes/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: GothamBlack, Arial, serif;
+  font-weight: normal; }
+
+/* line 10, ../componentes/sass/_base.scss */
+#info_wrapper h1 {
+  font-size: 2.2rem; }
+
+/* line 14, ../componentes/sass/_base.scss */
+#info_wrapper h2 {
+  font-size: 1.5rem;
+  line-height: 100%; }
+
+/* line 27, ../componentes/sass/_base.scss */
+#info_wrapper p {
+  font-family: Arial, Helvetica, _sans;
+  font-weight: bolder; }
+
+/* line 32, ../componentes/sass/_base.scss */
+#info_wrapper sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+/* line 1, ../componentes/sass/_layout.scss */
+#info_wrapper {
+  position: relative;
+  width: 920px;
+  height: 700px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #819090; }
+
+/* line 10, ../componentes/sass/_layout.scss */
+#fordFusionBlueprint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; }
+
+/* line 17, ../componentes/sass/_layout.scss */
+div#info_cabezalho {
+  height: 28px;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  background: black; }
+  /* line 24, ../componentes/sass/_layout.scss */
+  div#info_cabezalho h1 {
+    color: #ffdd00;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    line-height: 26px; }
+  /* line 31, ../componentes/sass/_layout.scss */
+  div#info_cabezalho img {
+    float: right;
+    cursor: pointer;
+    margin-top: -29px;
+    margin-right: 10px; }
+  /* line 37, ../componentes/sass/_layout.scss */
+  div#info_cabezalho img#btn_home {
+    margin-right: 20px; }
+
+/* line 43, ../componentes/sass/_layout.scss */
+#info_titulos {
+  font-family: GothamMedium, Arial, serif;
+  left: 20px;
+  position: absolute;
+  top: 50px;
+  color: white; }
+  /* line 49, ../componentes/sass/_layout.scss */
+  #info_titulos h1 {
+    font-family: inherit;
+    font-size: 40px;
+    line-height: 38px;
+    width: 500px; }
+  /* line 55, ../componentes/sass/_layout.scss */
+  #info_titulos h2 {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 19px;
+    width: 300px;
+    margin-top: 10px; }
+
+@-webkit-keyframes animacaoPulsante {
+  /* line 67, ../componentes/sass/_layout.scss */
+  0% {
+    opacity: .3; }
+
+  /* line 68, ../componentes/sass/_layout.scss */
+  70% {
+    opacity: .6; }
+
+  /* line 69, ../componentes/sass/_layout.scss */
+  100% {
+    opacity: .3; } }
+@-moz-keyframes animacaoPulsante {
+  /* line 72, ../componentes/sass/_layout.scss */
+  0% {
+    opacity: .3; }
+
+  /* line 73, ../componentes/sass/_layout.scss */
+  70% {
+    opacity: .6; }
+
+  /* line 74, ../componentes/sass/_layout.scss */
+  100% {
+    opacity: .3; } }
+@-o-keyframes animacaoPulsante {
+  /* line 77, ../componentes/sass/_layout.scss */
+  0% {
+    opacity: .3; }
+
+  /* line 78, ../componentes/sass/_layout.scss */
+  70% {
+    opacity: .6; }
+
+  /* line 79, ../componentes/sass/_layout.scss */
+  100% {
+    opacity: .3; } }
+@keyframes animacaoPulsante {
+  /* line 82, ../componentes/sass/_layout.scss */
+  0% {
+    opacity: .3; }
+
+  /* line 83, ../componentes/sass/_layout.scss */
+  70% {
+    opacity: .6; }
+
+  /* line 84, ../componentes/sass/_layout.scss */
+  100% {
+    opacity: .3; } }
+/* line 87, ../componentes/sass/_layout.scss */
+div#pulsantesWrapper {
+  position: absolute;
+  top: 0;
+  left: 0; }
+  /* line 91, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper .pulsante {
+    height: 40px;
+    width: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 8px solid rgba(129, 144, 144, 0.5);
+    background: #ffdd00;
+    cursor: pointer; }
+    /* line 99, ../componentes/sass/_layout.scss */
+    div#pulsantesWrapper .pulsante.pulsando {
+      -webkit-animation: animacaoPulsante 1.5s infinite;
+      /* Safari 4+ */
+      -moz-animation: animacaoPulsante 1.5s infinite;
+      /* Fx 5+ */
+      -o-animation: animacaoPulsante 1.5s infinite;
+      /* Opera 12+ */
+      animation: animacaoPulsante 1.5s infinite; }
+    /* line 105, ../componentes/sass/_layout.scss */
+    div#pulsantesWrapper .pulsante:hover {
+      opacity: .8 !important; }
+  /* line 109, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div.pulsantes {
+    display: none; }
+  /* line 112, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div.pulsante {
+    position: absolute; }
+  /* line 114, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div#pulsante_tela1 div#pulsante_1 {
+    top: 330px;
+    left: 650px; }
+  /* line 115, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div#pulsante_tela2 div#pulsante_1 {
+    top: 370px;
+    left: 240px; }
+  /* line 116, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div#pulsante_tela3 div#pulsante_1 {
+    top: 270px;
+    left: 640px; }
+  /* line 117, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div#pulsante_tela4 div#pulsante_1 {
+    top: 270px;
+    left: 560px; }
+  /* line 118, ../componentes/sass/_layout.scss */
+  div#pulsantesWrapper div#pulsante_tela5 div#pulsante_1 {
+    top: 230px;
+    left: 610px; }
+
+/* line 124, ../componentes/sass/_layout.scss */
+div#btn_comoFunciona {
+  position: absolute;
+  z-index: 101;
+  left: 20px;
+  bottom: 20px;
+  background: white;
+  height: 160px;
+  width: 160px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer; }
+  /* line 134, ../componentes/sass/_layout.scss */
+  div#btn_comoFunciona h3 {
+    font-family: GothamBlack, Arial, serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 33%;
+    pointer-events: none; }
+
+/* line 143, ../componentes/sass/_layout.scss */
+div#info_painelInferior {
+  z-index: 100;
+  position: absolute;
+  background: white;
+  height: 120px;
+  width: 90%;
+  right: 0;
+  bottom: 20px;
+  display: none; }
+  /* line 152, ../componentes/sass/_layout.scss */
+  div#info_painelInferior section {
+    padding-left: 90px; }
+    /* line 154, ../componentes/sass/_layout.scss */
+    div#info_painelInferior section img {
+      float: left;
+      margin: 42px 10px 0 10px;
+      cursor: pointer; }
+    /* line 159, ../componentes/sass/_layout.scss */
+    div#info_painelInferior section video.animacao {
+      float: left;
+      background: black; }
+    /* line 163, ../componentes/sass/_layout.scss */
+    div#info_painelInferior section p {
+      float: left;
+      width: 356px;
+      margin: 10px;
+      font-family: GothamExLight, Arial, serif;
+      font-size: 16px;
+      line-height: 20px; }
+  /* line 173, ../componentes/sass/_layout.scss */
+  div#info_painelInferior #section1 img.btn_anterior {
+    opacity: 0;
+    pointer-events: none; }
+  /* line 177, ../componentes/sass/_layout.scss */
+  div#info_painelInferior #section2, div#info_painelInferior #section3 {
+    display: none; }
+
+/* line 182, ../componentes/sass/_layout.scss */
+p#info_notaRodape {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  font-size: 10px;
+  text-align: right;
+  line-height: 1.2em;
+  /* background-color: rgba(0,0,0,.3); */
+  padding: .5em; }
+
+/* line 195, ../componentes/sass/_layout.scss */
+div#tooltipsWrapper {
+  position: absolute;
+  top: 0;
+  left: 0; }
+  /* line 199, ../componentes/sass/_layout.scss */
+  div#tooltipsWrapper .tooltip {
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 700px;
+    color: white;
+    width: 200px;
+    text-align: right; }
+    /* line 207, ../componentes/sass/_layout.scss */
+    div#tooltipsWrapper .tooltip h4 {
+      font-family: GothamBlack, Arial, serif; }
+    /* line 210, ../componentes/sass/_layout.scss */
+    div#tooltipsWrapper .tooltip p {
+      font-family: GothamMedium, Arial, serif;
+      font-size: .8em;
+      line-height: 1.3em; }
